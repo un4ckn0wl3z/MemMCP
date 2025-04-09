@@ -1,0 +1,11 @@
+[project]
+name = "mem-mcp"
+version = "0.1.0"
+description = "Cheat Engine-like but MCP"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+    "psutil>=7.0.0",
+    "pymem>=1.14.0",
+]
