@@ -265,3 +265,5 @@ def get_addresses(count: int) -> str:
 # Run the server
 if __name__ == "__main__":
     mcp.run()
+    # for sse (endpoint: http://127.0.0.1:8000/sse)
+    # mcp.run(transport="sse") 
